@@ -2,7 +2,7 @@
 
 ## 🚀 Project Overview
 
-Task Manager is a full-stack web application that allows users to **manage tasks** efficiently. It includes **user authentication, profile management, and full CRUD operations for tasks**. Built with **React/Next.js, Redux, Express/NestJS, and PostgreSQL/MySQL/MongoDB**, this app ensures a smooth and secure user experience.
+Task Manager is a full-stack web application that allows users to **manage tasks** efficiently. It includes **user authentication, profile management, and full CRUD operations for tasks**. Built with **Next.js, Redux, Express, and PostgreSQL**, this app ensures a smooth and secure user experience.
 
 ## 📌 Features
 
@@ -20,14 +20,14 @@ Task Manager is a full-stack web application that allows users to **manage tasks
 
 ### ✅ Additional Features
 
--   **Responsive UI** (Tailwind CSS/Bootstrap)
--   **Secure Password Hashing** (bcrypt)
+-   **Responsive UI** (Tailwind CSS)
+-   **Secure Password Hashing** (bcryptjs)
 -   **Middleware-Protected API Routes**
 
 ## 🛠 Tech Stack
 
-**Frontend:** React/Next.js, Redux, Tailwind CSS/Bootstrap  
-**Backend:** Express.js/NestJS, JWT, bcrypt  
+**Frontend:** Next.js, Redux, Tailwind CSS  
+**Backend:** Express.js/NestJS, JWT, bcryptjs  
 **Database:** PostgreSQL/MySQL/MongoDB  
 **State Management:** Redux Toolkit
 
@@ -36,7 +36,7 @@ Task Manager is a full-stack web application that allows users to **manage tasks
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/md-ali-0/Taskify-Server.git
+git clone https://github.com/md-ali-0/task-manager-server.git
 cd task-manager
 ```
 
@@ -46,14 +46,14 @@ cd task-manager
 
 ```bash
 cd frontend
-npm install  # or yarn install
+npm install  # or yarn install # or pnpm install
 ```
 
 #### Backend
 
 ```bash
 cd backend
-npm install  # or yarn install
+npm install  # or yarn install # or pnpm install
 ```
 
 ### 3️⃣ Setup Environment Variables
