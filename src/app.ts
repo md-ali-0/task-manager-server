@@ -31,7 +31,7 @@ class App {
   private initializeRoutes(): void {
     this.app.get("/", (req: Request, res: Response) => {
       res.send({
-        message: "Ecommerce Backend Running..",
+        message: "Task Manager Backend Running..",
       });
     });
 
